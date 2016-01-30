@@ -1,0 +1,87 @@
+@import url(base.css);
+#center{
+		width: 1190px;
+		height: 422px;
+		margin:0 auto;
+		margin-top: 30px;
+	}
+		.center-left{
+			width: 191px;
+			height:100%;
+			float: left;
+		}
+.center-left .left2-1{
+		width: 146px;
+		height: 202px;
+		background: #fafaf8;
+		padding-left: 45px;
+		position: relative;
+		left: 0px;
+		top:0px;
+		background: red
+
+		}
+	.center-left .leftbox{
+		width:100px;
+		height: 100%;
+		overflow: hidden;
+	}
+	.center-left .left2-a{
+		width:100px;
+		height: 100%;
+		/*background: red;*/
+	}
+		.center-left .left2-1 .box{
+			width:100px;
+			height:100%;
+			float: left;
+		}
+		.center-left .left2-1 img{
+			width: 90px;
+			height: 45px;
+		}
+		.center-left .left2-1 a{
+			display: block;
+			width: 90px;
+			height: 45px;
+			padding: 17px 5px 0px;
+			text-align: center;
+		}
+		.center-left .left2-1 a:hover{
+			margin-left: 2px;
+			transition:margin .2s linear;
+		}
+
+		.left2-1 .aa{
+			width: 20px;
+			height: 24px;
+			float: left;
+			position: absolute;
+			left: 0px;
+			top:95px;
+			display: none;
+		}
+		.left2-1 .aa img{
+			width: 20px;
+			height: 24px;
+		}
+		.left2-1 .bb img{
+			width: 20px;
+			height: 24px;
+		}
+		.left2-1 .bb{
+			width: 20px;
+			height: 24px;
+			float: right;
+			position: absolute;
+			right: 0px;
+			top:95px;
+			display: none;
+		}
+		.center-left .left2-1:hover .aa{
+			display: block;
+			margin-left: 1px;
+		}
+		.center-left .left2-1:hover .bb{
+			display: block;
+		}
